@@ -1,0 +1,1 @@
+import"./golos-text-DHLvmvr8.js";
