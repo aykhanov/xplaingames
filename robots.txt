@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://xplaingames.ru/sitemap.xml
