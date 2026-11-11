@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex" />
+    <title>XPlainGames</title>
+    <!-- Возврат с оплаты Robokassa (Success/Fail URL без параметров): переходим в приложение, номер заказа и сумму передаём дальше. -->
+    <script>
+      location.replace('../?payfail' + (location.search ? '&' + location.search.slice(1) : ''))
+    </script>
+    <noscript><meta http-equiv="refresh" content="0; url=../?payfail" /></noscript>
+  </head>
+  <body style="background:#17402f"></body>
+</html>

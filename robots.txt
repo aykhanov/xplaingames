@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /paid/
+Disallow: /payfail/
 
 Sitemap: https://xplaingames.ru/sitemap.xml
